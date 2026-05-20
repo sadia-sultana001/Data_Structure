@@ -33,8 +33,8 @@ int main()
     }
     //  int size = sizeof(arr) / sizeof(arr[0]);
     sort(arr, n);
-    for (int accending : arr)
+    for (int ascending : arr)
     {
-        std::cout << accending << "  ";
+        std::cout << ascending << "  ";
     }
 }

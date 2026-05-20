@@ -20,8 +20,8 @@ int main()
             cout<< "Invalid input";
       return 0;
       }
-      long long nPr = fact(n)/ (fact(r)* fact(n- r));
-      cout << nPr;
+      long long nCr = fact(n)/ (fact(r)* fact(n- r));
+      cout << nCr;
       return 0;
 }
 

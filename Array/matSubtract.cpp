@@ -29,7 +29,7 @@ int main()
         }
     }
     cout << endl
-         << "Sum of Two matrices:\n";
+         << "Subtract of Two matrices:\n";
     for (int i = 0; i < R; i++)
     {
         for (int j = 0; j < C; j++)

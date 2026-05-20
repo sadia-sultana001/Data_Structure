@@ -33,7 +33,7 @@ int main()
     }
     //  int size = sizeof(arr) / sizeof(arr[0]);
     sort(arr, n);
-    cout << "Decending Order : ";
+    cout << "Descending Order : ";
     for (int x : arr)
     {
         std::cout << x << "  ";

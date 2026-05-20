@@ -1,4 +1,5 @@
 #include <iostream>
+#include<algorithm>
 
 using namespace std;
 
@@ -43,6 +44,8 @@ int main()
     {
         scanf("%d", &A[i]);
     }
+
+    //sort(A, A+n);
 
     int x;
     printf("Enter element to search: ");
